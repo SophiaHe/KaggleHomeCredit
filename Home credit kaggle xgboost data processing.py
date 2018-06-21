@@ -70,6 +70,8 @@ buro_counts_unstacked.columns = ['STATUS_0', 'STATUS_1','STATUS_2','STATUS_3','S
 buro_counts_unstacked['MONTHS_COUNT'] = buro_grouped_size
 buro_counts_unstacked['MONTHS_MIN'] = buro_grouped_min
 buro_counts_unstacked['MONTHS_MAX'] = buro_grouped_max
+                     
+# test test
 
 buro = buro.join(buro_counts_unstacked, how='left', on='SK_ID_BUREAU')
 
